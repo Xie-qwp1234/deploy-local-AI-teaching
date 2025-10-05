@@ -157,7 +157,7 @@ sudo systemctl enable --now open-webui
 systemctl status open-webui --no-pager
 ```
 
-##　4️⃣ 下載模型與測試
+## 4️⃣ 下載模型與測試
 Mistral為例
 ```
 # 抓取模型
