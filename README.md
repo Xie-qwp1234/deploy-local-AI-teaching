@@ -2,7 +2,7 @@
 
 > 在 **Proxmox** 上部署本地 AI 服務：**Ollama + Open WebUI**  
 > 本指南詳細說明如何在 Debian 環境下安裝、設定與啟動完整的本地 AI 系統，  
-> 讓你在沒有外網 API 的情況下，離線使用 Llama3、Mistral 等大型語言模型。
+> 讓你在沒有外網 API 的情況下，離線使用 Mistral 等大型語言模型。
 
 ---
 
