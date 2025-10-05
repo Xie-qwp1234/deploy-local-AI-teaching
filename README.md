@@ -182,10 +182,10 @@ http://(你的ip)/
 ## 6️⃣ 常見問題 (FAQ)
 | 問題               | 原因                            | 解決方式                                          |            |
 | ---------------- | ----------------------------- | --------------------------------------------- | ---------- |
-| WebUI 無法開啟       | 服務沒啟動或 port 被佔用               | `sudo systemctl restart open-webui`、`ss -lntp | grep 8080` |
+| WebUI 無法開啟       | 服務沒啟動或 port 被佔用               | `sudo systemctl restart open-webui`、`ss -lntp |  |
 | WebUI 連不到 Ollama | `.env` 或 `OLLAMA_BASE_URL` 錯誤 | 改為 `http://127.0.0.1:11434` 或實際 IP            |            |
 | 模型下載卡住           | 網速慢或磁碟滿                       | 檢查空間、換網路、或手動下載                                |            |
-| GPU 無法使用         | 驅動未裝或 Ollama 未偵測 GPU          | 重新安裝 NVIDIA 驅動並重啟 Ollama                      |            |
+| GPU 無法使用         | 驅動未裝或 Ollama 未偵測 GPU          | 重新安裝 NVIDIA 驅動並重啟 Ollama                      |  (#8️⃣-在proxmox上直通GPU) |
 | 開機不自動啟動          | systemd 未啟用                   | `sudo systemctl enable ollama open-webui`     |            |
 
 ##　7️⃣ 更新與維護
