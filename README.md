@@ -188,7 +188,7 @@ http://(你的ip)/
 | GPU 無法使用         | 驅動未裝或 Ollama 未偵測 GPU          | 重新安裝 NVIDIA 驅動並重啟 Ollama                      |  (#8️⃣-在proxmox上直通GPU) |
 | 開機不自動啟動          | systemd 未啟用                   | `sudo systemctl enable ollama open-webui`     |            |
 
-##　7️⃣ 更新與維護
+## 7️⃣ 更新與維護
 升級 Open WebUI
 ```
 sudo /opt/open-webui/venv/bin/pip install --upgrade open-webui
