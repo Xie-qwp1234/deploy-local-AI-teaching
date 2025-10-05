@@ -119,7 +119,7 @@ sudo python3 -m venv /opt/open-webui/venv
 sudo /opt/open-webui/venv/bin/pip install --upgrade pip open-webui
 ```
 
-## 3️⃣　建立 systemd 自動啟動服務(選用)
+## 3️⃣ 建立 systemd 自動啟動服務(選用)
 建立 systemd檔案
 ```
 sudo nano /etc/systemd/system/open-webui.service
